@@ -14,7 +14,7 @@ export default () => {
             <li><Link to="/signup">SignUp</Link></li>
           </ul>
         </div>
-
+        
       </div>
     </nav>
   );
