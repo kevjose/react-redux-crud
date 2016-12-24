@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "nodemon --watch server --exec babel-node -- server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/kevjose/react-redux-crud/issues"
   },
-  "homepage": "https://github.com/kevjose/react-redux-crud#readme"
+  "homepage": "https://github.com/kevjose/react-redux-crud#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
 }
