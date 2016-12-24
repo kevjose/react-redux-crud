@@ -1,16 +1,13 @@
 import React from 'react';
-import Greetings from './Greetings';
-
-// export default () => {
-//   return (
-//     <h1>Hello From React!</h1>
-//   );
-// }
+import NavigationBar from './NavigationBar';
 
 class App extends React.Component {
   render(){
     return (
-      <Greetings />
+      <div className="container">
+        <NavigationBar />
+        {this.props.children}
+      </div>
     );
   }
 }
